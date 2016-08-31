@@ -28,7 +28,7 @@ h1, h2, h3, h4 {
 	font: 200 16px 'Franklin Gothic Medium', sans-serif;
 }
 
-.test p, .popover, .modal-content p {
+.test p, .popover, .modal-content p, .FLFP--button {
 	font: 200 18px/25px 'Garamond', serif;
 }
 
@@ -121,18 +121,33 @@ figcaption {
 	margin-bottom:3%;
 }
 
+.img-table {
+  max-width: 100%;
+}
+
 .sidebar-nav li {
 	line-height: 1.5em;
 	height: 40px;
 }
- .special-positionning {
+ .special-positionning, 
+ .positionning--2,
+ .positionning--3 
+ {
  	position: relative;
   left: -1em;
  }
 
- button:first-child {
+ .special-positionning {
  	top: 45.25em;;
+ } 
+
+.positionning--2 {
+  top: 148em;
  }
+ .positionning--3 {
+  top: 148em;
+ }
+
 
   .btn-popover {
 		padding: 0;
@@ -141,6 +156,14 @@ figcaption {
  .modal-content {
  	 width: 810px;
    padding: 20px;
+}
+
+.FLFP--button {
+  margin-top: -4px;
+}
+
+.blue-box {
+  border: 2px solid #1978c7;
 }
 
 
