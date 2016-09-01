@@ -86,7 +86,7 @@ margin-bottom: 4%;
 
 blockquote {
 	/*font: 600 24px/34px 'Garamond', serif;*/
-	font: 600 16px/34px 'Garamond', serif;
+	font: 600 16px/24px 'Garamond', serif;
   text-align: justify;
   word-spacing: -1px;
  }
@@ -164,6 +164,12 @@ figcaption {
 
 .blue-box {
   border: 2px solid #1978c7;
+}
+
+/* this eliminate the lines in the bootsrap modal */
+.modal-header, .modal-footer {
+  border-bottom: none;
+  border-top: none;
 }
 
 
