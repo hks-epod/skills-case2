@@ -172,5 +172,8 @@ figcaption {
   border-top: none;
 }
 
+.img-graph{
+  max-width: 100%;
+}
 
 
